@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/:slug"
+  to = "/:slug.html"
+  status = 301
